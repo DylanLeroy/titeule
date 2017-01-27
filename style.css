@@ -1,18 +1,18 @@
 ﻿.cont {
-	font-family: "Segoe Print";
+	font-family: "fantasy";
 	font-size: 20px;
 	text-decoration: blink;
 	background-color:blue;
 }
 .cont1 {
-	font-family: "Segoe Print";
-	font-size:20px;
-	background-color:white;
+	font-family: "fantasy";
+	font-size: 20px;
+	background-color: white;
 }
 .cont2 {
-	font-family: "Segoe Print";
-	font-size:20px;
-	background-color:red;
+	font-family: "fantasy";
+	font-size: 20px;
+	background-color: red;
 }
 
 .contenu {
