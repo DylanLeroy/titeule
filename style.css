@@ -18,7 +18,9 @@
 .contenu {
 	margin-top: 10%;
 }
-
+form{
+	margin: 20%;
+}
 img{
 max-width: 100%;
 height: auto;
