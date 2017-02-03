@@ -1,17 +1,14 @@
 ﻿.cont {
 	font-family: "fantasy";
-	font-size: 20px;
 	text-decoration: blink;
 	background-color:blue;
 }
 .cont1 {
 	font-family: "fantasy";
-	font-size: 20px;
 	background-color: white;
 }
 .cont2 {
 	font-family: "fantasy";
-	font-size: 20px;
 	background-color: red;
 }
 
@@ -25,3 +22,12 @@ img{
 max-width: 100%;
 height: auto;
 }
+ @media screen and (max-width: 480px) {
+	*{
+	font-size: 20px;
+}
+ @media screen and (min-width: 481px) and (max-width: 721px) {
+	*{
+	font-size: 40px;
+}
+ 
