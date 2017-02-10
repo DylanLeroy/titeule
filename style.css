@@ -11,23 +11,44 @@
 	font-family: "fantasy";
 	background-color: red;
 }
-
+tr{
+	border-bottom:1px solid black;
+}
 .contenu {
 	margin-top: 10%;
 }
 form{
-	margin: 20%;
+	margin-right: 20%;
+	margin-left: 20%;
 }
-img{
+#villemoche{
 max-width: 100%;
 height: auto;
 }
+#logo{
+	margin-left:35%;
+	margin-right:35%;
+	width: 300px;
+}
  @media screen and (max-width: 480px) {
 	*{
-	font-size: 20px;}
+	font-size: 10px;}
+	td{
+	display:block;
 }
- @media screen and (min-width: 481px) and (max-width: 721px) {
+
+}
+ @media screen and (min-width: 481px) and (max-width: 720px) {
 	*{
-	font-size: 40px;}
+	font-size: 40px;
+	}
+	td{
+	display:block;
+}
+
+}
+@media screen and (min-width: 721px) {
+	*{
+	font-size: 15px;}
 }
  
